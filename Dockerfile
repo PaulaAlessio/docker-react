@@ -7,6 +7,7 @@ COPY . .
 RUN npm run build
 # The stuff we are about is under /app/build
 
+EXPOSE 80
 # Run phase
 FROM nginx
 # With --from=builder specifies the phase we want to copy stuff from
