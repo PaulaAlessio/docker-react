@@ -1072,8 +1072,12 @@ Additionally, you may want to set the following property to the top of your .tra
 
     language: generic 
 
-You can read up on the CI=true variable here:
+You can read up on the CI=true variable [here](https://facebook.github.io/create-react-app/docs/running-tests#linux-macos-bash)
 
-https://facebook.github.io/create-react-app/docs/running-tests#linux-macos-bash
+Secret  keys have to be registered as: 
+```
+access_key_id: $AWS_SECRET_KEY
+secret_access_key: $AWS_SECRET_KEY
+```
 
 
